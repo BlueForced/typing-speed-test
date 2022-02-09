@@ -7,4 +7,4 @@ An application to test the user's typing speed in Words-Per-Minute, implemented 
 * Specifiable number of words in the test (from 1 to 1000)
 
 ### Demo:
-![A test demo of the program.](https://imgur.com/a/vNcppyD)
+![A test demo of the program.](https://media.giphy.com/media/gpzwVHfgv4wIXlyQc2/giphy.gif)
