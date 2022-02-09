@@ -2,10 +2,11 @@ from typing_core import Window
 from tkinter import simpledialog
 import random
 import re
+import os
 
 
 main_window = Window(width="500", height="800", start_pos_x="500", start_pos_y="300", bg='#000a17')
-with open("./meta/words.txt", "r") as f:
+with open(os.path.join("meta", "words.txt"), "r") as f:
     num_words = 2000
     while num_words > 1000:
         num_words = simpledialog.askinteger('Num', 'How many words do you want to type? (int < 1000)',
